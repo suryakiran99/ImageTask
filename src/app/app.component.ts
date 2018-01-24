@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-   image;
+  private image;
   title:'app';
   constructor(){
     this.image="../assets/images/books.jpg";
